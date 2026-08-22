@@ -1,0 +1,20 @@
+{
+  "name": "ep02codes",
+  "version": "1.0.0",
+  "description": "React course",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Imran Khan",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  }, 
+   "browserslist": [
+    "last 5 versions"
+   ]
+}
