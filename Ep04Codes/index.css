@@ -1,0 +1,75 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px black;
+}
+
+.logo {
+    width: 120px;
+}
+
+.nav-items > ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-items > ul > li {
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.nav-items {
+    padding: 0 30px;
+}
+
+.search {
+    padding: 10px;
+}
+
+/* Restaurant Card */
+.res-card {
+    padding: 5px;
+    width: 250px;
+    height: 370px;
+    box-sizing: border-box;
+    background-color: rgb(248, 243, 243);
+    overflow: hidden;
+    margin: 10px;
+}
+
+/* Restaurant Image */
+.restaurant-logo {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+/* Restaurant Name */
+.res-card h3 {
+    margin: 10px 0;
+}
+
+/* Cuisine and Rating */
+.res-card .txt {
+    margin: 10px 0;
+}
+
+/* Delivery Time */
+.res-card h4 {
+    margin: 10px 0;
+}
+
+/* Hover Effect */
+.res-card:hover {
+    border: 0.5px solid gray;
+    cursor: pointer;
+}
+
+/* Restaurant Container */
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 6px;
+    justify-content: space-around;
+}
